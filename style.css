@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.root{
+    font-size:10px;
+}
+.name{
+    background-color:#1b1c1d ;
+    height:30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name h2,.name p{
+    color:white;
+}
+.light{
+    font-size:0.8rem;
+}
+/*about part start--------------------------------------------------------*/
+.rebeloverlay{
+    background-color: white;
+    display: inline-block;
+}
+.rebel,.writer{
+    width:500px;
+    margin-right:100px;
+    margin-top: 70px;
+}
+.aboutsection{
+   display:flex;
+   flex-wrap: wrap;
+}
+h3{
+    font-weight:bold;
+}
+.image{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    width:350px;
+    height:500px;
+    box-shadow: 10px 10px 10px rgba(90, 86, 86, 0.1);
+}
+
+.sharebuttons{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+button{
+    width:9rem;
+    margin-right:1rem;
+    padding:0.4rem;
+    border: none;
+    border-radius: 0.3rem;
+}
+.video{
+    background-color: crimson;
+    color:white;
+}
+.books{
+    background-color: rgb(248, 180, 54);
+    color: white;
+}
+/* about part over -----------------------------------------------------*/
+
+/* quote part -----------------*/
+.quote{
+    height:5rem;
+    background-color: #1b1c1d;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote h4,.quote h3{
+    display: inline-block;
+    color:white;
+    font-size:1rem;
+}
+/* linecenter */
+.linecenter{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+.linecenter:before, .linecenter:after{
+    content: "";
+    flex:1 1;
+    color:rgb(134, 136, 138);
+    border-bottom: 1px solid;
+    margin: auto;
+}
+.linecenter:before{
+    margin-right: 20px;
+}
+.linecenter:after{
+    margin-left:20px;
+}
+.achievement{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h5{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.medal,.medal1,.medal2,.medal3{
+    width:14rem;
+    height:8rem;
+    border:1px solid rgb(134, 136, 138);
+    border-radius: 0.4rem;
+    padding:0.7rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.7em;
+}
+.lineflex{
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.line1{
+    width:500px;
+    margin-right:2rem;
+}
+.line2{
+    width:500px;
+}
+.linelist{
+    margin-top:3rem;
+    font-size: 0.8rem;
+}
+.footerborder{
+    background-color:#1b1c1d ;   
+}
+.footer{
+    display: flex;
+    flex-flow:row wrap;
+}
+h6{
+    font-weight: bold;
+    color: white;
+}
+.authorabout{
+    width:17rem;
+}
+.techused{
+    width:10rem;
+}
+.contentdisclaimer{
+    width:30rem;
+}
+.authorabout, .techused, .contentdisclaimer{
+    margin-right:2rem;
+    margin-top: 2rem;
+    font-size: 0.7rem;
+}
+.authorabout p, .techused p, .contentdisclaimer p{
+    color:white;
+}
